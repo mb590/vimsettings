@@ -31,3 +31,9 @@
 [submodule "pack/modules/start/vim-sexp-mappings-for-regular-people"]
 	path = pack/modules/start/vim-sexp-mappings-for-regular-people
 	url = https://github.com/tpope/vim-sexp-mappings-for-regular-people.git
+[submodule "pack/modules/start/vim-highlighter"]
+	path = pack/modules/start/vim-highlighter
+	url = https://github.com/azabiong/vim-highlighter.git
+[submodule "pack/modules/start/bufstop"]
+	path = pack/modules/start/bufstop
+	url = https://github.com/mihaifm/bufstop

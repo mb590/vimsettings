@@ -99,3 +99,5 @@ inoremap <C-j> <Down>
 inoremap <C-k> <Up>
 
 packadd! matchit
+
+nnoremap <leader>b :Bufstop<CR>
