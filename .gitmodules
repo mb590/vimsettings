@@ -1,0 +1,33 @@
+[submodule "pack/modules/start/bufexplorer"]
+	path = pack/modules/start/bufexplorer
+	url = https://github.com/jlanzarotta/bufexplorer.git
+[submodule "pack/modules/start/nerdtree"]
+	path = pack/modules/start/nerdtree
+	url = https://github.com/scrooloose/nerdtree.git
+[submodule "pack/modules/start/rainbow_parentheses.vim"]
+	path = pack/modules/start/rainbow_parentheses.vim
+	url = https://github.com/kien/rainbow_parentheses.vim.git
+[submodule "pack/modules/start/vim-airline"]
+	path = pack/modules/start/vim-airline
+	url = https://github.com/vim-airline/vim-airline.git
+[submodule "pack/modules/start/vim-airline-themes"]
+	path = pack/modules/start/vim-airline-themes
+	url = https://github.com/vim-airline/vim-airline-themes.git
+[submodule "pack/modules/start/vim-colors-solarized"]
+	path = pack/modules/start/vim-colors-solarized
+	url = https://github.com/altercation/vim-colors-solarized.git
+[submodule "pack/modules/start/vim-easymotion"]
+	path = pack/modules/start/vim-easymotion
+	url = https://github.com/easymotion/vim-easymotion
+[submodule "pack/modules/start/vim-fireplace"]
+	path = pack/modules/start/vim-fireplace
+	url = https://github.com/tpope/vim-fireplace.git
+[submodule "pack/modules/start/vim-repeat"]
+	path = pack/modules/start/vim-repeat
+	url = https://github.com/tpope/vim-repeat.git
+[submodule "pack/modules/start/vim-sexp"]
+	path = pack/modules/start/vim-sexp
+	url = https://github.com/guns/vim-sexp.git
+[submodule "pack/modules/start/vim-sexp-mappings-for-regular-people"]
+	path = pack/modules/start/vim-sexp-mappings-for-regular-people
+	url = https://github.com/tpope/vim-sexp-mappings-for-regular-people.git
