@@ -100,4 +100,4 @@ inoremap <C-k> <Up>
 
 packadd! matchit
 
-nnoremap <leader>b :Bufstop<CR>
+nnoremap <leader>bb :Bufstop<CR>
