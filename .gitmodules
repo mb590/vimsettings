@@ -37,3 +37,6 @@
 [submodule "pack/modules/start/bufstop"]
 	path = pack/modules/start/bufstop
 	url = https://github.com/mihaifm/bufstop
+[submodule "pack/modules/start/vim-jqplay"]
+	path = pack/modules/start/vim-jqplay
+	url = https://github.com/bfrg/vim-jqplay
