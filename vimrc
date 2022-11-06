@@ -26,7 +26,15 @@ Plug 'tpope/vim-sexp-mappings-for-regular-people',    {'for': 'clojure'}
 Plug 'liquidz/vim-iced', {'for': 'clojure'}
 Plug 'liquidz/vim-iced-asyncomplete', {'for': 'clojure'}
 
+Plug 'wuelnerdotexe/vim-enfocado'
 call plug#end()
+
+" set enfocado gui style
+set termguicolors
+set background=dark
+let g:airline_theme = 'enfocado'
+let g:enfocado_style = 'nature'
+colorscheme enfocado
 
 set autoindent
 "set autochdir
