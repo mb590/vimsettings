@@ -17,6 +17,7 @@ Plug 'tpope/vim-repeat'
 Plug 'junegunn/fzf', { 'dir': '~/.fzf', 'do': './install --all' }
 
 Plug 'prabirshrestha/asyncomplete.vim'
+Plug 'christoomey/vim-tmux-navigator'
 
 " clojure plugins
 "
