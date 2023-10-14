@@ -1,6 +1,9 @@
-set guifont=Hack\ 10
+"set guifont=Hack_NF:h11:cANSI:qDRAFT
+set guifont=victor_Mono_SemiBold:h11:W600:cANSI:qDRAFT
+
 set background=dark
-colorscheme solarized
+"colorscheme desert
+
 set guioptions-=T
 set lines=70
 set columns=130

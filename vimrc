@@ -1,5 +1,42 @@
 set nocompatible
 
+call plug#begin("~/.vim/plug")
+
+Plug 'scrooloose/nerdtree', { 'on':  'NERDTreeToggle' }
+Plug 'jlanzarotta/bufexplorer'
+Plug 'mihaifm/bufstop'
+Plug 'kien/rainbow_parentheses.vim'
+Plug 'vim-airline/vim-airline'
+Plug 'altercation/vim-colors-solarized'
+Plug 'vim-airline/vim-airline-themes'
+Plug 'easymotion/vim-easymotion'
+Plug 'azabiong/vim-highlighter'
+Plug 'bfrg/vim-jqplay'
+Plug 'tpope/vim-repeat'
+
+Plug 'junegunn/fzf', { 'dir': '~/.fzf', 'do': './install --all' }
+
+Plug 'prabirshrestha/asyncomplete.vim'
+Plug 'christoomey/vim-tmux-navigator'
+
+" clojure plugins
+"
+"Plug 'tpope/vim-fireplace', { 'for': 'clojure' }
+Plug 'guns/vim-sexp',    {'for': 'clojure'}
+Plug 'tpope/vim-sexp-mappings-for-regular-people',    {'for': 'clojure'}
+Plug 'liquidz/vim-iced', {'for': 'clojure'}
+Plug 'liquidz/vim-iced-asyncomplete', {'for': 'clojure'}
+
+Plug 'wuelnerdotexe/vim-enfocado'
+call plug#end()
+
+" set enfocado gui style
+set termguicolors
+set background=dark
+let g:airline_theme = 'enfocado'
+let g:enfocado_style = 'nature'
+colorscheme enfocado
+
 set autoindent
 "set autochdir
 
@@ -44,7 +81,8 @@ noremap [] [}
 inoremap <S-CR> <ESC>o
 inoremap <C-CR> <ESC>O
 inoremap <C-S> <ESC>:w<CR>a
-inoremap <C-V> <C-R>+
+"inoremap <C-V> <C-R>+
+inoremap <C-S-V> <C-R>+
 inoremap <A-Space> <ESC>
 
 "nmap <space> zz
@@ -53,7 +91,8 @@ nnoremap N Nzz
 nnoremap <S-CR> o<ESC>
 "nnoremap <CR> i<CR><ESC>
 
-cnoremap <C-v> <S-Insert>
+"cnoremap <C-v> <S-Insert>
+cnoremap <C-s-v> <S-Insert>
 "cmap <C-C> <C-Y>
 cnoremap <C-h> <Left>
 cnoremap <C-l> <Right>
@@ -73,10 +112,6 @@ syntax enable
 filetype plugin indent on
 
 let g:airline_theme='base16_solarized'
-
-au Syntax clojure RainbowParenthesesToggle
-au Syntax clojure RainbowParenthesesLoadRound
-au Syntax clojure RainbowParenthesesLoadSquare
 
 nnoremap <F11> :ToggleBufExplorer<CR>
 nnoremap <F12> :NERDTreeToggle<CR>
@@ -98,6 +133,18 @@ inoremap <C-l> <Right>
 inoremap <C-j> <Down>
 inoremap <C-k> <Up>
 
+inoremap ö [
+inoremap ä ]
+inoremap Ö {
+inoremap Ä }
+nnoremap ö [
+nnoremap ä ]
+nnoremap Ö {
+nnoremap Ä }
+
 packadd! matchit
 
 nnoremap <leader>bb :Bufstop<CR>
+
+
+
